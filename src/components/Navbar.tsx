@@ -6,12 +6,14 @@ const Navbar = () => {
         {/* Mobile View Icon */}
         <button className="lg:hidden text-2xl text-gray-700">☰</button>
 
+        
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <span className="bg-pink-500 text-white font-bold px-2.5 py-1 rounded-lg text-sm">DS</span>
           <span className="font-bold text-xl text-gray-900">Dev<span className="text-pink-500">Stack</span></span>
         </a>
 
+        
         {/* Navigation Links */}
         <div className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
           <a href="#" className="text-pink-500">Home</a>
@@ -21,6 +23,7 @@ const Navbar = () => {
           <a href="#" className="hover:text-pink-500">Contact</a>
         </div>
 
+        
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
           <button className="text-sm font-medium text-gray-600 hover:text-pink-500">Sign In</button>
