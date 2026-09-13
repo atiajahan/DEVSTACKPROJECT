@@ -10,7 +10,7 @@ const TechnologySection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/Data.json")
+    fetch("./Data.json")
       .then((res) => res.json())
       .then((data: Technology[]) => {
         setTechnologies(data);
