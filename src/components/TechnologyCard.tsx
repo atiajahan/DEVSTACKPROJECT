@@ -53,6 +53,7 @@ const TechnologyCard = ({
           </span>
         </div>
 
+        
         {/* Action Button */}
         <button
           onClick={() => onAdd(technology)}
@@ -63,6 +64,7 @@ const TechnologyCard = ({
               : "bg-slate-900 text-white hover:bg-slate-800"
           }`}
         >
+          
           {isAdded ? "✓ Added to Stack" : "Add to Stack"}
         </button>
       </div>
