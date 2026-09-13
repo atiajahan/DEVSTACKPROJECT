@@ -4,7 +4,7 @@ import TechnologySection from "./components/TechnologySection";
 import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./index.css"; // এই ইম্পোর্টটি অত্যন্ত জরুরি!
+import "./index.css"; 
 
 function App() {
   return (
