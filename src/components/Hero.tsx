@@ -12,10 +12,12 @@ const Hero = () => {
             </span>
           </h1>
 
+          
           <p className="mt-6 max-w-lg text-gray-500 leading-relaxed text-base md:text-lg">
             Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.
           </p>
 
+          
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <button className="px-6 py-3 rounded-xl text-white font-medium bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 hover:opacity-90 shadow-md transition">
               Explore Technologies
@@ -26,6 +28,7 @@ const Hero = () => {
           </div>
         </div>
 
+        
         {/* Right Banner Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <img
