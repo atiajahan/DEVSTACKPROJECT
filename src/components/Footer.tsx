@@ -9,9 +9,11 @@ const Footer = () => {
             <span className="bg-pink-500 text-white font-bold px-2.5 py-1 rounded-lg text-sm">DS</span>
             <span className="font-bold text-xl text-gray-900">Dev<span className="text-pink-500">Stack</span></span>
           </a>
+          
           <p className="mt-4 text-sm text-gray-500 max-w-sm leading-relaxed">
             Curated tools, technologies, and resources for developers building modern software.
           </p>
+          
           <div className="flex items-center gap-4 mt-6 text-sm font-medium text-gray-600">
             <a href="#" className="hover:text-pink-500">GitHub</a>
             <a href="#" className="hover:text-pink-500">Twitter</a>
