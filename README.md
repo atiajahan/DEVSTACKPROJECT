@@ -1,10 +1,10 @@
-# 🚀 Dev Stack — Build Your Ideal Tech Stack
+# Dev Stack — Build Your Ideal Tech Stack
 
 Dev Stack is an interactive web application designed for developers to explore, compare, and assemble their customized software technology stack.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React.js** (v18+)
 - **TypeScript** / **JavaScript**
@@ -22,7 +22,7 @@ Dev Stack is an interactive web application designed for developers to explore, 
 
 ---
 
-## ❓ React Conceptual Questions & Answers
+##  React Conceptual Questions & Answers
 
 ### 1. What is JSX, and why is it used in React?
 **Answer:** JSX (JavaScript XML) is a syntax extension for JavaScript that allows writing HTML-like markup directly inside JavaScript code. It is used in React because it makes component rendering structures visually intuitive and easier to read and maintain.
