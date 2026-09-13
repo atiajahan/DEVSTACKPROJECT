@@ -23,6 +23,7 @@ const TechnologyCard = ({
             alt={technology.name}
             className="w-10 h-10 object-contain"
           />
+          
           {technology.badge && (
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-pink-50 text-pink-500 border border-pink-100">
               {technology.badge}
@@ -30,17 +31,20 @@ const TechnologyCard = ({
           )}
         </div>
 
+        
         {/* Name */}
         <h3 className="text-xl font-bold text-gray-900 mt-4">
           {technology.name}
         </h3>
 
+        
         {/* Description */}
         <p className="text-sm text-gray-500 mt-2 leading-relaxed min-h-[60px]">
           {technology.description}
         </p>
       </div>
 
+      
       <div className="mt-6">
         {/* Metadata (Clean Spacing without dots) */}
         <div className="flex items-center justify-between text-xs font-medium border-t border-gray-50 pt-4 mb-4">
