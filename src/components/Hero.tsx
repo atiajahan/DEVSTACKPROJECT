@@ -32,10 +32,10 @@ const Hero = () => {
         {/* Right Banner Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
         <img
-             src="./banner-stack.png"
-             alt="Development Stack Banner"
-             className="w-full max-w-lg md:max-w-xl object-contain drop-shadow-sm"
-        />
+           src={`${import.meta.env.BASE_URL}banner-stack.png`}
+           alt="Development Stack Banner"
+           className="w-full max-w-lg md:max-w-xl object-contain drop-shadow-sm"
+         />
         </div>
 
       </div>
