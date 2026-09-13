@@ -1,4 +1,4 @@
-# Dev Stack — Build Your Ideal Tech Stack
+# Dev Stack 
 
 Dev Stack is an interactive web application designed for developers to explore, compare, and assemble their customized software technology stack.
 
